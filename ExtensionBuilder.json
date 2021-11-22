@@ -1,0 +1,35 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [],
+        "description": "Die News um ein Icons erweitern.",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 11.5.0-11.5.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "generateDocumentationTemplate": false,
+            "generateEditorConfig": false,
+            "generateEmptyGitRepository": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "11.5.0-11.5.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "news_icon_extension",
+        "name": "News Icons Extension",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [],
+        "plugins": [],
+        "vendorName": "Justabunchof"
+    },
+    "wires": [],
+    "storagePath": "\/srv\/www\/typo11\/htdocs\/packages\/",
+    "log": {
+        "last_modified": "2021-11-21 09:11",
+        "extension_builder_version": "v11.0.0",
+        "be_user": " (1)"
+    }
+}

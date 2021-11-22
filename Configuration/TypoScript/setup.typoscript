@@ -1,0 +1,27 @@
+plugin.tx_news.view.templateRootPaths.20 = EXT:news_icon_extension/Resources/Private/Templates/
+
+
+plugin.tx_news {
+    persistence {
+        classes {
+            GeorgRinger\News\Domain\Model\News {
+                subclasses {
+                    # three different classes are used for each news type
+                    # 0 == default news
+                    0 = Justabunchof\NewsIconExtension\Domain\Model\NewsDefault
+                }
+            }
+            Justabunchof\NewsIconExtension\Domain\Model\NewsDefault {
+                mapping {
+                    recordType = 0
+                    tableName = tx_news_domain_model_news
+                }
+            }
+        }
+    }
+
+    settings{
+        iconFolder = EXT:news_icon_extension/Resources/Public/Images/Icons/
+    }
+}
+

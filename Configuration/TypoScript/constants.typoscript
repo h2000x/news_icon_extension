@@ -1,0 +1,3 @@
+plugin.tx_news.view.templateRootPaths.20 = EXT:news_icon_extension/Resources/Private/Templates/
+
+

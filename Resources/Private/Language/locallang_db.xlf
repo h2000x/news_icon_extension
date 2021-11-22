@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+   <file source-language="en" datatype="plaintext" original="messages" date="2015-07-31T15:13:12Z" product-name="news_icon_extension">
+      <header/>
+      <body>
+         <trans-unit id="tx_newsextend_domain_model_news.newsicon">
+            <source>Icon für die News</source>
+         </trans-unit>
+      </body>
+   </file>
+</xliff>
